@@ -1,0 +1,17 @@
+{
+  "name": "defendodoge-api-integration",
+  "version": "1.0.0",
+  "description": "API integration layer for DefendoDoge security tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DefendoDoge Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.5"
+  }
+}

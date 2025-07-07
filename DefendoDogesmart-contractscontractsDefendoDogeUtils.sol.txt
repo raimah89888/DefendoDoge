@@ -1,0 +1,27 @@
+// DefendoDoge/smart-contracts/contracts/DefendoDogeUtils.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+/**
+ * @title DefendoDogeUtils
+ * @dev This contract is an example of a helper smart contract that can be used
+ * for verifying certain token or contract properties on-chain.
+ * It does not contain complex security logic, but rather a structural example.
+ */
+contract DefendoDogeUtils {
+
+    // A simple example function to check if an address is a contract
+    function isContract(address _addr) internal view returns (bool) {
+        uint32 size;
+        assembly {
+            size := extcodesize(_addr)
+        }
+        return size > 0;
+    }
+
+    // More verification functions can be added here
+    // Example: Checking token ownership, or specific contract properties
+
+    // Function to receive ETH (for testing or deposit purposes if needed)
+    receive() external payable {}
+}
