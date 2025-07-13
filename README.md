@@ -17,7 +17,7 @@ DefendoDoge offers a range of specialized security tools to cover various aspect
 
 ## 🔗 Important Links
 
-* **Official Website:** [https://defendodoge.netlify.app/](https://defendodoge.online/)
+* **Official Website:** [https://defendodoge.online/](https://defendodoge.online/)
 * **Twitter:** [https://twitter.com/defendodoge](https://twitter.com/defendodoge)
 * **Telegram:** [https://t.me/defendodogecommunity](https://t.me/defendodogecommunity)
 * **Reddit:** [https://www.reddit.com/r/defendodoge/](https://www.reddit.com/r/defendodoge/)
